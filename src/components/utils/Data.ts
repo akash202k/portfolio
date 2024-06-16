@@ -7,7 +7,9 @@ import {
   Shirt,
   ShoppingCart,
   Ticket,
+  CloudCog
 } from 'lucide-react';
+
 
 export interface ISectionCardData {
   id: number;
@@ -31,66 +33,66 @@ export interface IProjectSectionCardData {
 export const projectCard: IProjectSectionCardData[] = [
   {
     id: 1,
-    title: 'Discord Clone',
-    techStack: 'Next.js 13, React Hook Form, Zustand, Shadcn, Typescript',
-    imageUrl: 'discord-clone.jpeg',
-    href: 'https://github.com/nwaliaez/discord-clone',
+    title: 'Vercel Clone',
+    techStack: 'NodeJs, JavaScript, WebSockets, Redis, AWS S3, AWS ECS, Docker, HTTP Reverse Proxy',
+    imageUrl: 'vercelprofile.png',
+    href: 'https://github.com/akash202k/vercel-clone',
   },
   {
     id: 2,
-    title: 'Spotify Clone',
+    title: 'Blog WebApp',
     techStack:
-      'Next.js 13, React Hook Form, Zustand, Radix UI, Typescript, Tailwind CSS',
-    imageUrl: 'spotify-clone.gif',
-    href: 'https://github.com/nwaliaez/spotify-clone',
+      'Next.js 14, React Hook Form, Next Auth, Zod, React Loader, Typescript, Tailwind CSS',
+    imageUrl: 'blog.png',
+    href: 'https://github.com/akash202k/blog-app',
   },
   {
     id: 3,
-    title: 'Amazon Clone',
+    title: 'Redis as Queue',
     techStack:
-      'NodeJs, Express, Mongoose, Next.js 13, Next Auth, React Hook Form, Typescript, Tailwind CSS',
-    imageUrl: 'amazon-clone.jpeg',
-    href: 'https://github.com/nwaliaez/eCommerce',
+      'NodeJs, Express, Redis, Typescript',
+    imageUrl: 'redisQ.png',
+    href: 'https://github.com/akash202k/redis-Q',
   },
   {
     id: 4,
-    title: ' DALL·E Clone',
-    techStack: 'OpenAI, Nodejs, Express, Mongoose, ReactJS, Tailwind CSS',
-    imageUrl: 'dalle-clone.webp',
-    href: 'https://github.com/nwaliaez/dalleClone',
+    title: 'Redis as PubSub',
+    techStack: 'Redis, Nodejs, Express, typescript',
+    imageUrl: 'redisPS.png',
+    href: 'https://github.com/akash202k/redis-PubSub',
   },
 ];
 
 export const moreProjects = [
   {
     id: 1,
-    title: 'Ez Clothing',
-    techStack: 'Next.js 13, Drizzle, PostgreSql, Docker, ShadCn',
-    icon: 'shirt',
-    href: 'https://github.com/nwaliaez/ezClothing',
+    title: 'AWS Solutions Architect',
+    techStack: 'AWS Cloud, IAM, AWS Infra, MOnitoring',
+    icon: 'CloudCog',
+    href: 'https://www.credly.com/badges/57394c5f-f9b1-4d00-b9d8-1cea8707aab1/public_url',
   },
   {
     id: 2,
-    title: 'Ethereum Lottery',
-    techStack: 'Solidity, Ethers, Hardhat, Chai',
-    icon: 'lottery',
-    href: 'https://github.com/nwaliaez/HardhatLottery',
+    title: 'AWS Certified Devloper Associates ',
+    techStack: 'AWS, Devloper',
+    icon: 'CloudCog',
+    href: 'https://www.credly.com/badges/845ee136-2cea-4a73-a1bf-888d8b2fa088/public_url',
   },
-  {
-    id: 3,
-    title: 'File Sharing App',
-    techStack: 'Node js, Express, Web Sockets, WebRTC, ReactJs',
-    icon: 'share',
-    href: 'https://github.com/nwaliaez/filetransfer-webrtc',
-  },
+  // {
+  //   id: 3,
+  //   title: 'File Sharing App',
+  //   techStack: 'Node js, Express, Web Sockets, WebRTC, ReactJs',
+  //   icon: 'share',
+  //   href: 'https://github.com/nwaliaez/filetransfer-webrtc',
+  // },
 
-  {
-    id: 4,
-    title: 'Snake Game',
-    techStack: 'Next.js 13, Tailwind CSS, Typescript',
-    icon: 'game',
-    href: 'https://snake-nwaliaez.vercel.app/',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Snake Game',
+  //   techStack: 'Next.js 13, Tailwind CSS, Typescript',
+  //   icon: 'game',
+  //   href: 'https://snake-nwaliaez.vercel.app/',
+  // },
 ];
 
 export const frontendCard: ISectionCardData[] = [
@@ -100,7 +102,8 @@ export const frontendCard: ISectionCardData[] = [
     src: '/tech/frontend/htmlcss.jpeg',
     exp: '1 day ago',
     snippetCount: 1128,
-    progress: 90,
+    progress: 100,
+    href: 'https://github.com/akash202k/Secure-Network-Infra-With-Terraform-aws'
   },
   {
     id: 2,
@@ -268,69 +271,79 @@ export const devopsCards: ISectionCardData[] = [
 export const web3Cards: ISectionCardData[] = [
   {
     id: 1,
-    title: 'Solidity',
-    src: '/tech/web3/solidity.jfif',
+    title: 'Infra Using Terraform',
+    src: '/tech/devops/terraform.png',
     exp: '1 day ago',
     snippetCount: 1128,
-    progress: 90,
+    progress: 100,
+    href: 'https://github.com/akash202k/Secure-Network-Infra-With-Terraform-aws'
   },
   {
     id: 2,
-    title: 'Hardhat',
-    src: '/tech/web3/hardhat.jpeg',
-    exp: '1 day ago',
+    title: 'Terraform-2',
+    src: '/tech/devops/terraform.png',
+    exp: 'Completed',
     snippetCount: 1128,
-    progress: 80,
+    progress: 100,
+    href: 'https://github.com/akash202k/freelancing-client-1-assignment-1'
   },
-  {
-    id: 3,
-    title: 'Metamask',
-    src: '/tech/web3/metamask.webp',
-    exp: '1 day ago',
-    snippetCount: 1128,
-    progress: 90,
-  },
+  // {
+  //   id: 3,
+  //   title: 'Metamask',
+  //   src: '/tech/web3/metamask.webp',
+  //   exp: '1 day ago',
+  //   snippetCount: 1128,
+  //   progress: 90,
+  // },
   {
     id: 4,
-    title: 'Chainlink',
-    src: '/tech/web3/chainlink.png',
-    exp: '1 day ago',
+    title: 'Infra Migration to K8s',
+    src: '/tech/devops/k8s.png',
+    exp: 'Completed',
     snippetCount: 1128,
-    progress: 80,
+    progress: 100,
   },
-  {
-    id: 5,
-    title: 'OpenZeppelin',
-    src: '/tech/web3/openzeppelin.png',
-    exp: '1 day ago',
-    snippetCount: 1128,
-    progress: 70,
-  },
+  // {
+  //   id: 5,
+  //   title: 'OpenZeppelin',
+  //   src: '/tech/web3/openzeppelin.png',
+  //   exp: '1 day ago',
+  //   snippetCount: 1128,
+  //   progress: 70,
+  // },
 ];
 
 export const otherCards: ISectionCardData[] = [
   {
     id: 1,
-    title: 'Rest API',
-    src: '/tech/others/rest.png',
+    title: 'Web Scraping',
+    src: '/tech/others/webScraping.png',
     exp: '1 day ago',
     snippetCount: 1128,
-    progress: 90,
+    progress: 20,
   },
   {
     id: 2,
-    title: 'SOAP API',
-    src: '/tech/others/soap.jpg',
-    exp: '1 day ago',
+    title: 'Ecomerce FullStack WebApp',
+    src: '/tech/others/ecom.png',
+    exp: 'todo',
     snippetCount: 1128,
-    progress: 70,
+    progress: 10,
   },
   {
     id: 3,
-    title: 'GraphQl',
-    src: '/tech/others/graphql.png',
-    exp: '1 day ago',
+    title: 'WebRTC',
+    src: '/tech/others/webrtc.png',
+    exp: 'todo',
     snippetCount: 1128,
-    progress: 70,
+    progress: 10,
   },
+  {
+    id: 4,
+    title: 'CKA',
+    src: '/tech/devops/k8s.png',
+    exp: 'pending',
+    snippetCount: 1128,
+    progress: 10,
+  }
 ];

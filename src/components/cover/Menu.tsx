@@ -2,9 +2,9 @@
 import { FC } from 'react';
 import List from '../ui/List';
 
-interface MenuProps {}
+interface MenuProps { }
 
-const Menu: FC<MenuProps> = ({}) => {
+const Menu: FC<MenuProps> = ({ }) => {
     return (
         <div className="flex gap-4">
             <List
@@ -15,14 +15,14 @@ const Menu: FC<MenuProps> = ({}) => {
             >
                 Home
             </List>
-            <List
+            {/* <List
                 link="/home"
                 variant="secondary"
                 sizes="small"
                 effect="changeColor"
             >
                 Videos
-            </List>
+            </List> */}
             <List
                 link="/home"
                 variant="secondary"

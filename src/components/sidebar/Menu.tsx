@@ -13,6 +13,7 @@ import {
   Shirt,
   ShoppingCart,
   Ticket,
+  Twitter,
   Video,
   X,
   Youtube,
@@ -20,9 +21,9 @@ import {
 import List from '../ui/List';
 import { useMenu } from '../Provider';
 
-interface MenuProps {}
+interface MenuProps { }
 
-const Menu: FC<MenuProps> = ({}) => {
+const Menu: FC<MenuProps> = ({ }) => {
   const { showMenuVisibility } = useMenu();
   return (
     <div
@@ -42,42 +43,50 @@ const Menu: FC<MenuProps> = ({}) => {
       <List link="/" effect="slideUp">
         <Code /> Snippets
       </List>
-      <List link="https://www.instagram.com/ezsnippet/" effect="slideUp">
+      {/* <List link="https://www.x.com/akash202k_/" effect="slideUp">
         <Video /> Videos
-      </List>
+      </List> */}
 
       {/* List 2 */}
       <div className="mt-5">Socials</div>
-      <List
+      {/* <List
         target="_blank"
-        link="https://www.instagram.com/ezsnippet/"
+        link="https://www.instagram.com/akash202k/"
         effect="slideUp"
       >
         <Instagram color="#b5179e" /> Instagram
-      </List>
-      <List target="_blank" link="https://github.com/nwaliaez" effect="slideUp">
+      </List> */}
+      <List target="_blank" link="https://github.com/akash202k" effect="slideUp">
         <Github color="#2a9d8f" /> Github
       </List>
-      <List
+      {/* <List
         target="_blank"
         link="https://www.youtube.com/channel/UCWYz4W6m1toUP7x0M1od3fA"
         effect="slideUp"
       >
         <Youtube color="#e63946" /> Youtube
-      </List>
-      <List
+      </List> */}
+      {/* <List
         target="_blank"
         link="https://stackoverflow.com/users/20331641/neeraj-walia"
         effect="slideUp"
       >
         <Layers color="#f77f00" /> Stack overflow
-      </List>
+      </List> */}
       <List
         target="_blank"
-        link="https://www.linkedin.com/in/ezSnippet/"
+        link="https://www.linkedin.com/in/akash202k/"
         effect="slideUp"
       >
         <Linkedin color="#0277b5" /> Linkedin
+      </List>
+
+      <List
+        target="_blank"
+        link="https://www.x.com/akash202k_/"
+        effect="slideUp"
+      >
+        <Twitter color="#0277b5" /> Twitter
       </List>
 
       {/* List 3 */}

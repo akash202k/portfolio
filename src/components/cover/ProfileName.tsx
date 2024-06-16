@@ -1,23 +1,23 @@
 import Link from 'next/link';
 import { FC } from 'react';
 import Button from '../ui/Button';
-import { Instagram } from 'lucide-react';
+import { Instagram, Twitter } from 'lucide-react';
 
-interface ProfileNameProps {}
+interface ProfileNameProps { }
 
-const ProfileName: FC<ProfileNameProps> = ({}) => {
+const ProfileName: FC<ProfileNameProps> = ({ }) => {
     return (
         <div className="text-3xl flex flex-col font-bold text-highlight">
-            Neeraj Walia
+            Akash Pawar
             <div className="text-sm font-thin flex justify-between items-center">
-                @ezSnippet
+                @akash202k
                 <Link
                     className="block md:hidden"
-                    href="https://instagram.com/ezSnippet"
+                    href="https://x.com/akash202k_"
                     target='_blank'
                 >
                     <Button variant="primary" sizes={'iconOnly'}>
-                        <Instagram />
+                        <Twitter />
                     </Button>
                 </Link>
             </div>

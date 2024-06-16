@@ -1,9 +1,9 @@
 import { FC } from 'react';
 import TechCard from './Card/TechCard';
 
-interface TechStackProps {}
+interface TechStackProps { }
 
-const TechStack: FC<TechStackProps> = ({}) => {
+const TechStack: FC<TechStackProps> = ({ }) => {
   return (
     <div className="col-span-2 p-6 md:col-span-2 lg:col-span-3">
       <div className="text-xl font-medium mt-2 text-zinc-200 mb-5">
@@ -20,18 +20,18 @@ const TechStack: FC<TechStackProps> = ({}) => {
             'Javascript',
             'Typescript',
             'React Js',
-            'Next Js 13',
+            'Next Js',
           ]}
         />
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'BUN Js', 'Elysia', 'Next Auth']}
+          tech={['Node Js', 'Express Js', 'Next Auth', 'Web Sockets']}
         />
         <TechCard
           title="Database"
           classaName="bg-[#e0558a]"
-          tech={['MySql', 'MongoDB', 'PostgreSQL', 'Redis', 'Elastic Search']}
+          tech={['MySql', 'MongoDB', 'PostgreSQL', 'Redis', 'Priisma']}
         />
         <TechCard
           title="Devops"
@@ -44,6 +44,7 @@ const TechStack: FC<TechStackProps> = ({}) => {
             'Ansible',
             'Terraform',
             'AWS',
+            'Azure',
           ]}
         />
       </div>
