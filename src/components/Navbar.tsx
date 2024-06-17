@@ -5,9 +5,9 @@ import SearchBar from './navbar/SearchBar';
 import Button from './ui/Button';
 import { useContact, useMenu } from './Provider';
 
-interface NavbarProps {}
+interface NavbarProps { }
 
-const Navbar: FC<NavbarProps> = ({}) => {
+const Navbar: FC<NavbarProps> = ({ }) => {
     const { setFormVisibility } = useContact();
     const { showMenu, showMenuVisibility } = useMenu();
     return (
@@ -15,7 +15,11 @@ const Navbar: FC<NavbarProps> = ({}) => {
             {/* <SearchBar /> */}
             <div>{/* Place holder for search bar */}</div>
             <div className="flex items-center gap-5">
-                <Button disabled onClick={setFormVisibility}>
+                {/* <Button disabled onClick={setFormVisibility}>
+                    Contact Me <User size={18} />
+                </Button> */}
+
+                <Button onClick={() => window.location.href = 'mailto:akashpawar202k@gmail.com'}>
                     Contact Me <User size={18} />
                 </Button>
 

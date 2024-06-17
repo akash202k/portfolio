@@ -324,7 +324,7 @@ export const otherCards: ISectionCardData[] = [
   },
   {
     id: 2,
-    title: 'Ecomerce FullStack WebApp',
+    title: 'Ecommerce WebApp',
     src: '/tech/others/ecom.png',
     exp: 'todo',
     snippetCount: 1128,

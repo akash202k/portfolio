@@ -17,6 +17,7 @@ import {
   Video,
   X,
   Youtube,
+  BookCopyIcon
 } from 'lucide-react';
 import List from '../ui/List';
 import { useMenu } from '../Provider';
@@ -37,8 +38,8 @@ const Menu: FC<MenuProps> = ({ }) => {
       <List link="/" effect="slideUp">
         <Home /> Home
       </List>
-      <List link="/" effect="slideUp">
-        <Flame /> Trending
+      <List link="/tech/resume/akash-resume.pdf" target="_blank" effect="slideUp">
+        <BookCopyIcon /> Resume
       </List>
       <List link="/" effect="slideUp">
         <Code /> Snippets
