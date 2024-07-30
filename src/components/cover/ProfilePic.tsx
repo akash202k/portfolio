@@ -8,7 +8,7 @@ const ProfilePic: FC<ProfilePicProps> = ({ }) => {
         <div className="">
             <Image
                 alt="Akash Pawar"
-                src="/images/akashPic.jpeg"
+                src="/images/akashPic.png"
                 height={120}
                 width={120}
                 className="object-cover border-4 border-white rounded-full shadow-md"

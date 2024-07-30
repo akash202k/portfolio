@@ -24,11 +24,8 @@ export default function Home() {
         {/* <CardSection title="Earned Batches" data={web3Cards} /> */}
         <AwsBadgeDisplay />
         <MoreProjects title="Certification" data={moreProjects} />
-        <ProjectCardSection title="Development Hands-On " data={projectCard} />
-
-
         <CardSection title="Ongoing Learning" data={otherCards} />
-
+        <ProjectCardSection title="Development Hands-On " data={projectCard} />
       </div>
     </div>
   );
