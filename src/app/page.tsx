@@ -3,6 +3,7 @@ import CardSection from '@/components/sections/CardSection';
 import MoreProjects from '@/components/sections/MoreProjects';
 import Hero from '@/components/sections/Hero';
 import ProjectCardSection from '@/components/sections/ProjectCardSection';
+import AwsBadgeDisplay from '@/components/sections/AwsBadgeDisplay';
 import {
   backendCard,
   databaseCard,
@@ -11,7 +12,7 @@ import {
   moreProjects,
   otherCards,
   projectCard,
-  web3Cards,
+  web3Cards
 } from '@/components/utils/Data';
 
 export default function Home() {
@@ -20,11 +21,14 @@ export default function Home() {
       <Cover />
       <div className="flex flex-col  gap-10 lg:px-10">
         {/* <Hero /> */}
-        <ProjectCardSection title="Projects" data={projectCard} />
+        {/* <CardSection title="Earned Batches" data={web3Cards} /> */}
+        <AwsBadgeDisplay />
         <MoreProjects title="Certification" data={moreProjects} />
+        <ProjectCardSection title="Development Hands-On " data={projectCard} />
 
-        <CardSection title="DevOps Projects" data={web3Cards} />
+
         <CardSection title="Ongoing Learning" data={otherCards} />
+
       </div>
     </div>
   );

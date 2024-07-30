@@ -31,7 +31,7 @@ const TechStack: FC<TechStackProps> = ({ }) => {
         <TechCard
           title="Database"
           classaName="bg-[#e0558a]"
-          tech={['MySql', 'MongoDB', 'PostgreSQL', 'Redis', 'Priisma']}
+          tech={['Prisma', 'MongoDB', 'PostgreSQL', 'Redis']}
         />
         <TechCard
           title="Devops"
