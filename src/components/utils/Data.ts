@@ -330,7 +330,7 @@ export const otherCards: ISectionCardData[] = [
     src: '/tech/devops/k8s.png',
     exp: 'pending',
     snippetCount: 1128,
-    progress: 10,
+    progress: 95,
   },
   {
     id: 3,
@@ -338,7 +338,7 @@ export const otherCards: ISectionCardData[] = [
     src: '/tech/others/gcp.png',
     exp: 'todo',
     snippetCount: 1128,
-    progress: 10,
+    progress: 40,
   },
   {
     id: 1,
@@ -346,6 +346,6 @@ export const otherCards: ISectionCardData[] = [
     src: '/tech/others/webScraping.png',
     exp: '1 day ago',
     snippetCount: 1128,
-    progress: 20,
+    progress: 30,
   }
 ];
