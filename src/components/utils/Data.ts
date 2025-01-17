@@ -66,13 +66,21 @@ export const projectCard: IProjectSectionCardData[] = [
 export const moreProjects = [
   {
     id: 1,
+    title: 'Certified Kubernetes Administrator',
+    techStack: 'k8s, Container Orchestration, Cluster Management, Troubleshooting, Networking, Security',
+    icon: 'CloudCog',
+    href: 'https://www.credly.com/badges/35b5c7eb-5325-4e6c-b186-4fd5341690d5/public_url',
+  },
+
+  {
+    id: 2,
     title: 'AWS Solutions Architect',
-    techStack: 'AWS Cloud, IAM, AWS Infra, MOnitoring',
+    techStack: 'AWS Cloud, IAM, AWS Infra, MOnitoring ',
     icon: 'CloudCog',
     href: 'https://www.credly.com/badges/57394c5f-f9b1-4d00-b9d8-1cea8707aab1/public_url',
   },
   {
-    id: 2,
+    id: 3,
     title: 'AWS Certified Devloper Associates ',
     techStack: 'AWS, Devloper',
     icon: 'CloudCog',
@@ -328,9 +336,9 @@ export const otherCards: ISectionCardData[] = [
     id: 4,
     title: 'CKA',
     src: '/tech/devops/k8s.png',
-    exp: 'Progressing',
+    exp: 'Completed',
     snippetCount: 1128,
-    progress: 95,
+    progress: 100,
   },
   {
     id: 3,
@@ -338,7 +346,7 @@ export const otherCards: ISectionCardData[] = [
     src: '/tech/others/gcp.png',
     exp: 'Progressing',
     snippetCount: 1128,
-    progress: 40,
+    progress: 33,
   },
   {
     id: 1,

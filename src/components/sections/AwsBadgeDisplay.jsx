@@ -4,14 +4,18 @@ const AwsBadgeDisplay = () => {
     const awsBadges = [
         {
             id: 1,
-            href: './tech/devops/aws-saa.png',
+            href: './tech/devops/cka.png',
         },
         {
             id: 2,
-            href: './tech/devops/aws-da.png',
+            href: './tech/devops/aws-saa.png',
         },
         {
             id: 3,
+            href: './tech/devops/aws-da.png',
+        },
+        {
+            id: 4,
             href: './tech/devops/aws-p.png',
         },
     ];

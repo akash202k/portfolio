@@ -23,7 +23,7 @@ export default function Home() {
         {/* <Hero /> */}
         {/* <CardSection title="Earned Batches" data={web3Cards} /> */}
         <AwsBadgeDisplay />
-        <MoreProjects title="Certification" data={moreProjects} />
+        <MoreProjects title="Verify Certification's" data={moreProjects} />
         <CardSection title="Ongoing Learning" data={otherCards} />
         <ProjectCardSection title="Development Hands-On " data={projectCard} />
       </div>
