@@ -38,7 +38,7 @@ const Menu: FC<MenuProps> = ({ }) => {
       <List link="/" effect="slideUp">
         <Home /> Home
       </List>
-      <List link="/tech/resume/akash-resume.pdf" target="_blank" effect="slideUp">
+      <List link="/akash-resume.pdf" target="_blank" effect="slideUp">
         <BookCopyIcon /> Resume
       </List>
       {/* <List link="/" effect="slideUp">
