@@ -323,25 +323,18 @@ export const web3Cards: ISectionCardData[] = [
 
 export const otherCards: ISectionCardData[] = [
 
-  // {
-  //   id: 2,
-  //   title: 'Ecommerce WebApp',
-  //   src: '/tech/others/ecom.png',
-  //   exp: 'todo',
-  //   snippetCount: 1128,
-  //   progress: 10,
-  // },
+  {
+    id: 1,
+    title: 'Observability',
+    src: '/tech/others/observability.png',
+    exp: 'Progressing',
+    snippetCount: 1128,
+    progress: 10,
+  },
+
 
   {
-    id: 4,
-    title: 'CKA',
-    src: '/tech/devops/k8s.png',
-    exp: 'Completed',
-    snippetCount: 1128,
-    progress: 100,
-  },
-  {
-    id: 3,
+    id: 2,
     title: 'Google Cloud',
     src: '/tech/others/gcp.png',
     exp: 'Progressing',
@@ -349,11 +342,19 @@ export const otherCards: ISectionCardData[] = [
     progress: 33,
   },
   {
-    id: 1,
-    title: 'Web Scraping',
-    src: '/tech/others/webScraping.png',
-    exp: 'Progressing',
+    id: 3,
+    title: 'CKA',
+    src: '/tech/devops/k8s.png',
+    exp: 'Completed',
     snippetCount: 1128,
-    progress: 30,
-  }
+    progress: 100,
+  },
+  // {
+  //   id: 1,
+  //   title: 'Web Scraping',
+  //   src: '/tech/others/webScraping.png',
+  //   exp: 'Progressing',
+  //   snippetCount: 1128,
+  //   progress: 30,
+  // }
 ];

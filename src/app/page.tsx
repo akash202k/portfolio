@@ -19,13 +19,13 @@ export default function Home() {
   return (
     <div>
       <Cover />
-      <div className="flex flex-col  gap-10 lg:px-10">
+      <div className="flex flex-col  gap-10 lg:px-10 pb-10" >
         {/* <Hero /> */}
         {/* <CardSection title="Earned Batches" data={web3Cards} /> */}
         <AwsBadgeDisplay />
         <MoreProjects title="Verify Certification's" data={moreProjects} />
         <CardSection title="Ongoing Learning" data={otherCards} />
-        <ProjectCardSection title="Development Hands-On " data={projectCard} />
+        {/* <ProjectCardSection title="Development Hands-On " data={projectCard} /> */}
       </div>
     </div>
   );
