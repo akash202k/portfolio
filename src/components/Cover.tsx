@@ -2,7 +2,7 @@ import { FC } from 'react';
 import ProfilePic from './cover/ProfilePic';
 import ProfileName from './cover/ProfileName';
 import Button from './ui/Button';
-import { Twitter } from 'lucide-react';
+import { Linkedin, Twitter } from 'lucide-react';
 import Link from 'next/link';
 
 interface CoverProps { }
@@ -18,7 +18,7 @@ const Cover: FC<CoverProps> = () => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            href="https://x.com/akash202k_"
+                            href="https://www.linkedin.com/in/akash202k/"
                         >
                             <Button
                                 variant="primary"
@@ -27,9 +27,9 @@ const Cover: FC<CoverProps> = () => {
                             >
                                 <div className="absolute inset-0 bg-blue-900 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 group-hover:bg-blue-700 origin-left"></div>
                                 <div className="relative flex items-center gap-2 text-white group-hover:text-gray-200">
-                                    <Twitter />
-                                    <span className="hidden md:block">
-                                        Follow me on Twitter
+                                    <Linkedin />
+                                    <span className="hidden md:block ml-0">
+                                        Connect
                                     </span>
                                 </div>
                             </Button>

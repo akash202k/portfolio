@@ -26,25 +26,32 @@ const TechStack: FC<TechStackProps> = ({ }) => {
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'Next Auth', 'Web Sockets']}
+          tech={['Node Js', 'Next Auth', 'PostgreSQL', 'Redis', 'Web Sockets', 'Prisma', 'MongoDB',]}
         />
         <TechCard
-          title="Database"
+          title="Clouds"
           classaName="bg-[#e0558a]"
-          tech={['Prisma', 'MongoDB', 'PostgreSQL', 'Redis']}
+          tech={[
+            'AWS',
+            'Azure',
+            'Gcp',
+          ]}
         />
         <TechCard
           title="Devops"
           classaName="bg-[#10c0a2]"
           tech={[
-            'Docker',
+
+            // 'Docker',
             'Kubernetes',
-            'GIT',
-            'Jenkins',
-            'Ansible',
+            'Elastic Search',
+            'Prometheus',
+            'Cortex',
+            'Grafana',
             'Terraform',
-            'AWS',
-            'Azure',
+            'Ansible',
+            'Python'
+
           ]}
         />
       </div>
