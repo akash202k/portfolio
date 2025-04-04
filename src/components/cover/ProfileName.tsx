@@ -10,7 +10,7 @@ const ProfileName: FC<ProfileNameProps> = ({ }) => {
         <div className="text-3xl flex flex-col font-bold text-highlight">
             Akash Pawar
             <div className="text-sm font-thin flex justify-between items-center">
-                +91 - 9346706296
+                ☎️ +91 - 9346706296
                 <Link
                     className="block md:hidden"
                     href="https://x.com/akash202k_"
