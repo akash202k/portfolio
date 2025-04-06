@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { FC } from 'react';
 import Button from '../ui/Button';
-import { Instagram, Twitter } from 'lucide-react';
+import { Instagram, Linkedin, Twitter } from 'lucide-react';
 
 interface ProfileNameProps { }
 
@@ -13,11 +13,11 @@ const ProfileName: FC<ProfileNameProps> = ({ }) => {
                 ☎️ +91 - 9346706296
                 <Link
                     className="block md:hidden"
-                    href="https://x.com/akash202k_"
+                    href="https://www.linkedin.com/in/akash202k/"
                     target='_blank'
                 >
                     <Button variant="primary" sizes={'iconOnly'}>
-                        <Twitter />
+                        <Linkedin />
                     </Button>
                 </Link>
             </div>
