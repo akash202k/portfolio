@@ -41,7 +41,7 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
               item === 'Azure' && 'border border-blue-500/60',
               item === 'Gcp' && 'border border-black/60', //
               item === 'Grafana' && 'border border-orange-500/60',
-              item === 'Cortex' && 'border border-red-600/50',
+              item === 'Cortex' && 'border border-black/60',
               item === 'Python' && 'border border-yellow-500/30',
             )}
           >
