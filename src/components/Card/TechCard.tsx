@@ -21,10 +21,10 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
             key={i}
             className={cn(
               'rounded-md bg-body text-xs text-primary p-2',
-              item === 'Tailwind' && 'border border-blue-500/60',
+              item === 'Tailwind' && 'border border-purple-500/60',
               item === 'Javascript' && 'border border-yellow-500/60',
               item === 'React Js' && 'border border-black/60',
-              item === 'Next Js 13' && 'border  border-blue-500/60',
+              item === 'Next Js' && 'border  border-blue-500/60',
               item === 'Node Js' && 'border border-green-500/60',
               item === 'Express Js' && 'border border-gray-500/60',
               item === 'Psql' && 'border border-blue-500/60',
@@ -42,7 +42,7 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
               item === 'Gcp' && 'border border-black/60', //
               item === 'Grafana' && 'border border-orange-500/60',
               item === 'Cortex' && 'border border-black/60',
-              item === 'Python' && 'border border-yellow-500/30',
+              item === 'Python' && 'border border-yellow-500/50',
             )}
           >
             {item}

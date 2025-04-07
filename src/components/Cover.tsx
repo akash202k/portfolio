@@ -25,10 +25,10 @@ const Cover: FC<CoverProps> = () => {
                                 sizes={'small'}
                                 className="relative overflow-hidden group"
                             >
-                                <div className="absolute inset-0 bg-blue-900 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 group-hover:bg-blue-700 origin-left"></div>
+                                <div className="absolute inset-0 bg-blue-900 transition-all duration-300 transform scale-x-0 group-hover:scale-x-100 group-hover:bg-blue-900/100 origin-left"></div>
                                 <div className="relative flex items-center gap-2 text-white group-hover:text-gray-200">
                                     <Linkedin />
-                                    <span className="hidden md:block ml-0">
+                                    <span className="hidden md:block ml-0 text-base ">
                                         Connect
                                     </span>
                                 </div>
