@@ -34,7 +34,7 @@ const TechStack: FC<TechStackProps> = ({ }) => {
           tech={[
             'AWS',
             'Azure',
-            'Gcp',
+            'GCP',
           ]}
         />
         <TechCard
@@ -44,14 +44,15 @@ const TechStack: FC<TechStackProps> = ({ }) => {
 
             // 'Docker',
             'Kubernetes',
-            'Elastic Search',
+            'OpenSearch',
             'Prometheus',
-            'Cortex',
             'Grafana',
+            'Cortex',
+            'Karpenter',
+            'ESO',
             'Terraform',
             'Ansible',
-            'Python'
-
+            'Python',
           ]}
         />
       </div>

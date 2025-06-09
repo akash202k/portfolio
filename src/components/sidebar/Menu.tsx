@@ -41,9 +41,9 @@ const Menu: FC<MenuProps> = ({ }) => {
       <List link="/akash-resume.pdf" target="_blank" effect="slideUp">
         <BookCopyIcon /> Resume
       </List>
-      {/* <List link="/" effect="slideUp">
-        <Code /> Snippets
-      </List> */}
+      <List link="https://blog.akashpawar.com" target="_blank" effect="slideUp">
+        <Code /> Blog
+      </List>
       {/* <List link="https://www.x.com/akash202k_/" effect="slideUp">
         <Video /> Videos
       </List> */}

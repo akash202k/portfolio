@@ -28,9 +28,9 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
               item === 'Node Js' && 'border border-green-500/60',
               item === 'Express Js' && 'border border-gray-500/60',
               item === 'Psql' && 'border border-blue-500/60',
-              item === 'MongoDB' && 'border border-black/60',
+              item === 'OpenSearch' && 'border border-purple-500/60',
               item === 'PostgreSQL' && 'border border-blue-500/60',
-              item === 'Redis' && 'border border-red-500/60',
+              item === 'ESO' && 'border border-red-500/60',
               item === 'Elastic Search' && 'border border-yellow-500/60',
               item === 'Docker' && 'border border-blue-500/60',
               item === 'Kubernetes' && 'border border-blue-500/60',
@@ -43,6 +43,7 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
               item === 'Grafana' && 'border border-orange-500/60',
               item === 'Cortex' && 'border border-black/60',
               item === 'Python' && 'border border-yellow-500/50',
+              item === 'Karpenter' && 'border border-blue-500/70',
             )}
           >
             {item}

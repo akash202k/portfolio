@@ -329,7 +329,7 @@ export const otherCards: ISectionCardData[] = [
     src: '/tech/others/observability.png',
     exp: 'Progressing',
     snippetCount: 1128,
-    progress: 10,
+    progress: 50,
   },
 
 
