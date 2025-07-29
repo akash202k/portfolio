@@ -19,6 +19,7 @@ export interface ISectionCardData {
   snippetCount: number;
   progress: number;
   href?: string;
+  link?: string
 }
 
 export interface IProjectSectionCardData {
@@ -322,17 +323,6 @@ export const web3Cards: ISectionCardData[] = [
 ];
 
 export const otherCards: ISectionCardData[] = [
-
-  {
-    id: 1,
-    title: 'Observability',
-    src: '/tech/others/observability.png',
-    exp: 'Progressing',
-    snippetCount: 1128,
-    progress: 50,
-  },
-
-
   {
     id: 2,
     title: 'Google Cloud',
@@ -341,6 +331,19 @@ export const otherCards: ISectionCardData[] = [
     snippetCount: 1128,
     progress: 33,
   },
+
+  {
+    id: 1,
+    title: 'Observability',
+    src: '/tech/others/observability.png',
+    exp: 'Progressing',
+    snippetCount: 1128,
+    progress: 75,
+    href: "https://github.com/akash202k/cncf-hackthon-2025"
+  },
+
+
+
   {
     id: 3,
     title: 'CKA',
@@ -348,13 +351,17 @@ export const otherCards: ISectionCardData[] = [
     exp: 'Completed',
     snippetCount: 1128,
     progress: 100,
+    href: "https://www.credly.com/badges/35b5c7eb-5325-4e6c-b186-4fd5341690d5/public_url"
   },
-  // {
-  //   id: 1,
-  //   title: 'Web Scraping',
-  //   src: '/tech/others/webScraping.png',
-  //   exp: 'Progressing',
-  //   snippetCount: 1128,
-  //   progress: 30,
-  // }
+  {
+    id: 1,
+    title: 'Nvidia GPU Volcano k8s',
+    src: '/tech/others/volcano.png',
+    exp: 'Complete',
+    snippetCount: 1128,
+    progress: 100,
+    href: 'https://github.com/akash202k/nvidia-gpu-volcano-k8s'
+  }
 ];
+
+

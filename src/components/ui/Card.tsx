@@ -21,9 +21,21 @@ const Card: FC<CardProps> = ({
     href,
     progress,
 }) => {
+    // If href is not present or is empty, default to home page
+    const linkDestination = href && href.trim() !== '' ? href : '/';
+
+    // Determine if it's an external link
+    const isExternalLink = linkDestination !== '/' && (
+        linkDestination.startsWith('http://') ||
+        linkDestination.startsWith('https://') ||
+        linkDestination.startsWith('//')
+    );
+
+    const target = isExternalLink ? "_blank" : "_self";
+
     return (
         <div className="flex flex-col gap-3">
-            <Link target="_blank" href={href || '/'}>
+            <Link target={target} href={linkDestination}>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                     <Image
                         src={src}
@@ -46,8 +58,8 @@ const Card: FC<CardProps> = ({
                 <div className="flex gap-2 md:gap-10">
                     <List
                         variant="info"
-                        target="_blank"
-                        link={href || '/'}
+                        target={target}
+                        link={linkDestination}
                         sizes="xs"
                     >
                         <Code size={16} />
@@ -55,8 +67,8 @@ const Card: FC<CardProps> = ({
                     </List>
                     <List
                         variant="info"
-                        target="_blank"
-                        link={href || '/'}
+                        target={target}
+                        link={linkDestination}
                         sizes="xs"
                     >
                         <History size={16} />
