@@ -18,9 +18,7 @@ const Cover: FC<CoverProps> = () => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            // href="https://www.linkedin.com/in/akash202k/"
-
-                            href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=akash202k"
+                            href="https://www.linkedin.com/in/akash202k/"
                         >
                             <Button
                                 variant="primary"
